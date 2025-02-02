@@ -1,0 +1,21 @@
+pyeudiw.presentation\_exchange.schemas package
+==============================================
+
+Submodules
+----------
+
+pyeudiw.presentation\_exchange.schemas.oid4vc\_presentation\_definition module
+------------------------------------------------------------------------------
+
+.. automodule:: pyeudiw.presentation_exchange.schemas.oid4vc_presentation_definition
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.presentation_exchange.schemas
+   :members:
+   :undoc-members:
+   :show-inheritance:

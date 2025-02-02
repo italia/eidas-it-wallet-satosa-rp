@@ -1,0 +1,77 @@
+pyeudiw.sd\_jwt package
+=======================
+
+Submodules
+----------
+
+pyeudiw.sd\_jwt.common module
+-----------------------------
+
+.. automodule:: pyeudiw.sd_jwt.common
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.disclosure module
+---------------------------------
+
+.. automodule:: pyeudiw.sd_jwt.disclosure
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.exceptions module
+---------------------------------
+
+.. automodule:: pyeudiw.sd_jwt.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.holder module
+-----------------------------
+
+.. automodule:: pyeudiw.sd_jwt.holder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.issuer module
+-----------------------------
+
+.. automodule:: pyeudiw.sd_jwt.issuer
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.schema module
+-----------------------------
+
+.. automodule:: pyeudiw.sd_jwt.schema
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.sd\_jwt module
+------------------------------
+
+.. automodule:: pyeudiw.sd_jwt.sd_jwt
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.sd\_jwt.verifier module
+-------------------------------
+
+.. automodule:: pyeudiw.sd_jwt.verifier
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.sd_jwt
+   :members:
+   :undoc-members:
+   :show-inheritance:

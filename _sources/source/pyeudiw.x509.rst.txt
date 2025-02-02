@@ -1,0 +1,21 @@
+pyeudiw.x509 package
+====================
+
+Submodules
+----------
+
+pyeudiw.x509.verify module
+--------------------------
+
+.. automodule:: pyeudiw.x509.verify
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.x509
+   :members:
+   :undoc-members:
+   :show-inheritance:

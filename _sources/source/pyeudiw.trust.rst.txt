@@ -1,0 +1,63 @@
+pyeudiw.trust package
+=====================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pyeudiw.trust.default
+   pyeudiw.trust.handler
+   pyeudiw.trust.model
+
+Submodules
+----------
+
+pyeudiw.trust.dynamic module
+----------------------------
+
+.. automodule:: pyeudiw.trust.dynamic
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.trust.exceptions module
+-------------------------------
+
+.. automodule:: pyeudiw.trust.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.trust.interface module
+------------------------------
+
+.. automodule:: pyeudiw.trust.interface
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.trust.trust\_anchors module
+-----------------------------------
+
+.. automodule:: pyeudiw.trust.trust_anchors
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.trust.trust\_chain module
+---------------------------------
+
+.. automodule:: pyeudiw.trust.trust_chain
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.trust
+   :members:
+   :undoc-members:
+   :show-inheritance:

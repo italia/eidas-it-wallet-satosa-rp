@@ -1,0 +1,29 @@
+pyeudiw.satosa package
+======================
+
+Submodules
+----------
+
+pyeudiw.satosa.backend module
+-----------------------------
+
+.. automodule:: pyeudiw.satosa.backend
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.satosa.exceptions module
+--------------------------------
+
+.. automodule:: pyeudiw.satosa.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.satosa
+   :members:
+   :undoc-members:
+   :show-inheritance:

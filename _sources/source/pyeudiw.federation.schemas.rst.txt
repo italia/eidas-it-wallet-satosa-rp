@@ -1,0 +1,45 @@
+pyeudiw.federation.schemas package
+==================================
+
+Submodules
+----------
+
+pyeudiw.federation.schemas.entity\_configuration module
+-------------------------------------------------------
+
+.. automodule:: pyeudiw.federation.schemas.entity_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.schemas.federation\_configuration module
+-----------------------------------------------------------
+
+.. automodule:: pyeudiw.federation.schemas.federation_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.schemas.federation\_entity module
+----------------------------------------------------
+
+.. automodule:: pyeudiw.federation.schemas.federation_entity
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.schemas.wallet\_relying\_party module
+--------------------------------------------------------
+
+.. automodule:: pyeudiw.federation.schemas.wallet_relying_party
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.federation.schemas
+   :members:
+   :undoc-members:
+   :show-inheritance:

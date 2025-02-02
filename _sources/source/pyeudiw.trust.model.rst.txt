@@ -1,0 +1,21 @@
+pyeudiw.trust.model package
+===========================
+
+Submodules
+----------
+
+pyeudiw.trust.model.trust\_source module
+----------------------------------------
+
+.. automodule:: pyeudiw.trust.model.trust_source
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.trust.model
+   :members:
+   :undoc-members:
+   :show-inheritance:

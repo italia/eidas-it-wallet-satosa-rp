@@ -1,0 +1,18 @@
+pyeudiw.presentation\_exchange package
+======================================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pyeudiw.presentation_exchange.schemas
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.presentation_exchange
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,40 @@
+pyeudiw package
+===============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pyeudiw.federation
+   pyeudiw.jwk
+   pyeudiw.jwt
+   pyeudiw.oauth2
+   pyeudiw.openid4vp
+   pyeudiw.presentation_exchange
+   pyeudiw.satosa
+   pyeudiw.sd_jwt
+   pyeudiw.storage
+   pyeudiw.tools
+   pyeudiw.trust
+   pyeudiw.x509
+
+Submodules
+----------
+
+pyeudiw.exceptions module
+-------------------------
+
+.. automodule:: pyeudiw.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw
+   :members:
+   :undoc-members:
+   :show-inheritance:

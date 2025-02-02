@@ -1,0 +1,69 @@
+pyeudiw.openid4vp.schemas package
+=================================
+
+Submodules
+----------
+
+pyeudiw.openid4vp.schemas.cnf\_schema module
+--------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.cnf_schema
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.schemas.flow module
+-------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.flow
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.schemas.response module
+-----------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.response
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.schemas.vp\_formats module
+--------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.vp_formats
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.schemas.vp\_token module
+------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.vp_token
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.schemas.wallet\_instance\_attestation module
+--------------------------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.wallet_instance_attestation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.schemas.wallet\_instance\_attestation\_request module
+-----------------------------------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.schemas.wallet_instance_attestation_request
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.openid4vp.schemas
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,37 @@
+pyeudiw.federation.trust\_chain package
+=======================================
+
+Submodules
+----------
+
+pyeudiw.federation.trust\_chain.builder module
+----------------------------------------------
+
+.. automodule:: pyeudiw.federation.trust_chain.builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.trust\_chain.parse module
+--------------------------------------------
+
+.. automodule:: pyeudiw.federation.trust_chain.parse
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.trust\_chain.validator module
+------------------------------------------------
+
+.. automodule:: pyeudiw.federation.trust_chain.validator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.federation.trust_chain
+   :members:
+   :undoc-members:
+   :show-inheritance:

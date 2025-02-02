@@ -1,0 +1,29 @@
+pyeudiw.trust.default package
+=============================
+
+Submodules
+----------
+
+pyeudiw.trust.default.direct\_trust\_sd\_jwt\_vc module
+-------------------------------------------------------
+
+.. automodule:: pyeudiw.trust.default.direct_trust_sd_jwt_vc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.trust.default.federation module
+---------------------------------------
+
+.. automodule:: pyeudiw.trust.default.federation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.trust.default
+   :members:
+   :undoc-members:
+   :show-inheritance:

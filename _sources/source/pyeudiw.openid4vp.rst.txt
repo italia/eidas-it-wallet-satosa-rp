@@ -1,0 +1,101 @@
+pyeudiw.openid4vp package
+=========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pyeudiw.openid4vp.schemas
+
+Submodules
+----------
+
+pyeudiw.openid4vp.authorization\_request module
+-----------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.authorization_request
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.authorization\_response module
+------------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.authorization_response
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.direct\_post\_response module
+-----------------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.direct_post_response
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.exceptions module
+-----------------------------------
+
+.. automodule:: pyeudiw.openid4vp.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.interface module
+----------------------------------
+
+.. automodule:: pyeudiw.openid4vp.interface
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.utils module
+------------------------------
+
+.. automodule:: pyeudiw.openid4vp.utils
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.vp module
+---------------------------
+
+.. automodule:: pyeudiw.openid4vp.vp
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.vp\_mdoc\_cbor module
+---------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.vp_mdoc_cbor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.vp\_sd\_jwt module
+------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.vp_sd_jwt
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.openid4vp.vp\_sd\_jwt\_vc module
+----------------------------------------
+
+.. automodule:: pyeudiw.openid4vp.vp_sd_jwt_vc
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.openid4vp
+   :members:
+   :undoc-members:
+   :show-inheritance:

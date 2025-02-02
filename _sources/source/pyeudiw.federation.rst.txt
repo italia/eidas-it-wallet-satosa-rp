@@ -1,0 +1,70 @@
+pyeudiw.federation package
+==========================
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   pyeudiw.federation.schemas
+   pyeudiw.federation.trust_chain
+
+Submodules
+----------
+
+pyeudiw.federation.exceptions module
+------------------------------------
+
+.. automodule:: pyeudiw.federation.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.http\_client module
+--------------------------------------
+
+.. automodule:: pyeudiw.federation.http_client
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.policy module
+--------------------------------
+
+.. automodule:: pyeudiw.federation.policy
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.statements module
+------------------------------------
+
+.. automodule:: pyeudiw.federation.statements
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.trust\_chain\_builder module
+-----------------------------------------------
+
+.. automodule:: pyeudiw.federation.trust_chain_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+pyeudiw.federation.trust\_chain\_validator module
+-------------------------------------------------
+
+.. automodule:: pyeudiw.federation.trust_chain_validator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Module contents
+---------------
+
+.. automodule:: pyeudiw.federation
+   :members:
+   :undoc-members:
+   :show-inheritance:
