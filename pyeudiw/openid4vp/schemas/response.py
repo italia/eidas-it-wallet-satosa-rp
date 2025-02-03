@@ -3,19 +3,7 @@ from typing import Optional
 from pydantic import BaseModel, field_validator
 
 from pyeudiw.jwt.utils import is_jwt_format
-
-
-class DescriptorSchema(BaseModel):
-    id: str
-    path: str
-    format: str
-
-
-class PresentationSubmissionSchema(BaseModel):
-    definition_id: str
-    id: str
-    descriptor_map: list[DescriptorSchema]
-
+from pyeudiw.openid4vp.presentation_submission.schemas import PresentationSubmissionSchema
 
 class ResponseSchema(BaseModel):
     state: Optional[str]

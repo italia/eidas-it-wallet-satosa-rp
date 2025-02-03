@@ -1,0 +1,19 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none",
+    "yaml.customTags": [
+        "!sd scalar",
+        "!sd mapping",
+        "!sd sequence"
+    ],
+    "python.testing.pytestArgs": [
+        "tests"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "terminal.integrated.fontSize": 12,
+    "window.zoomLevel":0,
+    "editor.fontSize": 14
+}

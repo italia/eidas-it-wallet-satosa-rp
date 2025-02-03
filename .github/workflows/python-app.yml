@@ -64,14 +64,6 @@ jobs:
           python -m pip install -e .
           python -m pip install "Pillow>=10.0.0,<10.1" "device_detector>=5.0,<6" "satosa>=8.4,<8.6" "jinja2>=3.0,<4" "pymongo>=4.4.1,<4.5" aiohttp
           python -m pip install git+https://github.com/peppelinux/pyMDOC-CBOR.git
-
-#    - name: Integration Tests
-#      run: |
-#        sudo apt-get install xmlsec1
-#        cd example/satosa/integration_test/
-#        python -m pip install -r requirements_test.txt
-#        python cross_device_integration_test.py
-#        python same_device_integration_test.py
       - name: Lint with flake8
         run: |
           # stop the build if there are Python syntax errors or undefined names
@@ -79,10 +71,9 @@ jobs:
           # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
           flake8 pyeudiw --count --exit-zero --statistics  --max-line-length 160
       - name: Tests
-        working-directory: ./pyeudiw
         run: |
-          # pytest --cov=pyeudiw --cov-fail-under=90
-          pytest --cov=pyeudiw
+          # pytest --cov=pyeudiw --cov-fail-under=90 pyeudiw
+          pytest --cov=pyeudiw pyeudiw
           coverage report -m --skip-covered
       - name: Bandit Security Scan
         run: |
@@ -95,15 +86,15 @@ jobs:
           printf '\t- %s\n' "${array[@]}"
           echo "Linter output:"
 
-        for file in "${array[@]}"
-        do
-          echo -e "\n$file:"
-          html_lint.py "$file" | awk -v path="file://$PWD/$file:" '$0=path$0' | sed -e 's/: /:\n\t/';
-        done
-        # block if the html linter fails
-        #for file in "${array[@]}"
-        #do
-          #errors=$(html_lint.py "$file" | grep -c 'Error')
-          #if [ "$errors" -gt 0 ]; then exit 1; fi;
-        #done
+            for file in "${array[@]}"
+            do
+              echo -e "\n$file:"
+              html_lint.py "$file" | awk -v path="file://$PWD/$file:" '$0=path$0' | sed -e 's/: /:\n\t/';
+            done
 
+            # block if the html linter fails
+            #for file in "${array[@]}"
+            #do
+              #errors=$(html_lint.py "$file" | grep -c 'Error')
+              #if [ "$errors" -gt 0 ]; then exit 1; fi;
+            #done
