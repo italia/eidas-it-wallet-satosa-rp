@@ -91,7 +91,7 @@ class CombinedTrustEvaluator(BaseLogger):
         """
         trust_source = self._retrieve_trust_source(issuer)
 
-        if not trust_source:
+        if not trust_source or len(trust_source.trust_params.values()) == 0:
             trust_source = self._upsert_source_trust_materials(issuer, trust_source)
 
         return trust_source
@@ -175,15 +175,6 @@ class CombinedTrustEvaluator(BaseLogger):
         :rtype: list[dict]
         """
         trust_source = self._get_trust_source(issuer)
-
-        # why should we issue an exception if a configuration might work without
-        # any trust evaluation handler?
-
-        #  if not trust_source.trust_params:
-            #  raise Exception(
-                #  f"no trust evaluator can provide trust parameters for {issuer}: "
-                #  f"searched among: {self.handlers_names}"
-            #  )
 
         return {
             _typ: param.trust_params

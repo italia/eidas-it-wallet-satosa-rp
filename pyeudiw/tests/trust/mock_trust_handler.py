@@ -1,5 +1,7 @@
 from pyeudiw.trust.handler.interface import TrustHandlerInterface
 from pyeudiw.trust.model.trust_source import TrustSourceData
+from pyeudiw.trust.model.trust_source import TrustParameterData
+from datetime import datetime
 
 mock_jwk = {
     "crv": "P-256",
@@ -25,6 +27,15 @@ class MockTrustHandler(TrustHandlerInterface):
     ) -> TrustSourceData:
         trust_source = self.get_metadata(issuer, trust_source)
         trust_source.keys.append(mock_jwk)
+
+        trust_param = TrustParameterData(
+            type="trust_param_type",
+            trust_params= {"trust_param_key": "trust_param_value"},
+            expiration_date=datetime.now(),
+        )
+
+        trust_source.add_trust_param("trust_param", trust_param)
+
         return trust_source
 
 

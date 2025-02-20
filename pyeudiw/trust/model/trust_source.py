@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
+from typing import Union
 
 from cryptojwt.jwk.jwk import key_from_jwk_dict
 
@@ -14,7 +15,7 @@ class TrustParameterData:
     def __init__(
         self,
         type: str,
-        trust_params: dict,
+        trust_params: Union[dict, str],
         expiration_date: datetime,
     ) -> None:
         """
